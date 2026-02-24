@@ -1,67 +1,55 @@
-# 🚀 Creative Developer Portfolio
+🚀 Creative Developer Portfolio
 
-A modern, interactive portfolio website showcasing projects and skills with stunning animations and smooth interactions.
+A modern, responsive portfolio website designed to showcase my projects, technical skills, and achievements with smooth animations and interactive UI elements.
 
-## ✨ Features
+✨ Features
 
-- Modern dark theme with gradient accents
-- Fully responsive design (desktop, tablet, mobile)
-- Interactive project cards with modal details
-- Animated skill progress bars
-- Smooth scroll navigation
-- Contact form with email integration
-- Mobile-friendly hamburger menu
+🌙 Modern dark theme with gradient accents
 
-## 📁 Files
+📱 Fully responsive design (Desktop, Tablet, Mobile)
 
-- `index.html` - Main HTML structure
-- `style.css` - Styling and animations
-- `script.js` - Interactive functionality
-- `README.md` - Documentation
+🗂️ Interactive project cards with modal popups
 
-## 🚀 How to Run
+📊 Animated skill progress bars
 
-1. Navigate to the project folder
-2. Start a local server:
-   ```bash
-   python -m http.server 8000
-   ```
-3. Open in browser: `http://localhost:8000`
+🔄 Smooth scrolling navigation
 
-## 🛠️ Technologies
+📬 Contact form with email integration
 
-- HTML
-- CSS
-- JavaScript
+🍔 Mobile-friendly hamburger menu
 
-## 📝 Customization
+📁 Project Structure
+📦 Creative-Developer-Portfolio
+ ┣ 📜 index.html     → Main structure
+ ┣ 📜 style.css      → Styling & animations
+ ┣ 📜 script.js      → Interactivity & dynamic content
+ ┗ 📜 README.md      → Documentation
+ 
+🚀 Run Locally
 
-### Update Your Info
-Edit these sections in `index.html`:
-- Contact email (line 213)
-- Location (line 219)
-- Social links (line 220-221)
+You can directly open index.html in your browser
 
-### Change Colors
-Edit CSS variables in `style.css` (lines 7-13):
-```css
---primary-color: #667eea;
---secondary-color: #764ba2;
---accent-color: #00f2fe;
-```
+OR start a local server:
 
-### Add Projects
-Edit `projectsData` array in `script.js` (line 1)
+python -m http.server 8080
 
-## 🌐 Browser Support
+Then open:
+👉 http://localhost:8080
 
-Chrome, Firefox, Safari, Edge, Brave (latest versions)
+🛠️ Built With
 
-## 📄 License
+HTML
 
-Open source - Feel free to use and modify
+CSS
 
----
+JavaScript
 
-**Created with ❤️ by Tirth Joshi**
+🌐 Browser Compatibility
 
+Fully supported on latest versions of:
+Chrome • Firefox • Safari • Edge • Brave
+
+👨‍💻 Author
+
+Tirth Joshi
+Aspiring Software Developer | Problem Solver | Tech Enthusiast
