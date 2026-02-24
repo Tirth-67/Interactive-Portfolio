@@ -30,9 +30,9 @@ A modern, interactive portfolio website showcasing projects and skills with stun
 
 ## 🛠️ Technologies
 
-- HTML5
-- CSS3 (Gradients, Animations)
-- JavaScript (ES6+)
+- HTML
+- CSS
+- JavaScript
 
 ## 📝 Customization
 
@@ -55,7 +55,7 @@ Edit `projectsData` array in `script.js` (line 1)
 
 ## 🌐 Browser Support
 
-Chrome, Firefox, Safari, Edge (latest versions)
+Chrome, Firefox, Safari, Edge, Brave (latest versions)
 
 ## 📄 License
 
@@ -64,3 +64,4 @@ Open source - Feel free to use and modify
 ---
 
 **Created with ❤️ by Tirth Joshi**
+
