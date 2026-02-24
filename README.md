@@ -1,8 +1,8 @@
-🚀 Creative Developer Portfolio
+**🚀 Creative Developer Portfolio**
 
 A modern, responsive portfolio website designed to showcase my projects, technical skills, and achievements with smooth animations and interactive UI elements.
 
-✨ Features
+**✨ Features**
 
 🌙 Modern dark theme with gradient accents
 
@@ -18,14 +18,14 @@ A modern, responsive portfolio website designed to showcase my projects, technic
 
 🍔 Mobile-friendly hamburger menu
 
-📁 Project Structure
+**📁 Project Structure**
 📦 Creative-Developer-Portfolio
  ┣ 📜 index.html     → Main structure
  ┣ 📜 style.css      → Styling & animations
  ┣ 📜 script.js      → Interactivity & dynamic content
  ┗ 📜 README.md      → Documentation
  
-🚀 Run Locally
+**🚀 Run Locally**
 
 You can directly open index.html in your browser
 
@@ -44,12 +44,13 @@ CSS
 
 JavaScript
 
-🌐 Browser Compatibility
+**🌐 Browser Compatibility**
 
 Fully supported on latest versions of:
 Chrome • Firefox • Safari • Edge • Brave
 
-👨‍💻 Author
+**👨‍💻 Author**
 
 Tirth Joshi
 Aspiring Software Developer | Problem Solver | Tech Enthusiast
+
