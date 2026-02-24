@@ -31,7 +31,7 @@ OR start a local server:
 python -m http.server 8080
 
 Then open:
-👉 http://localhost:8080
+👉 http://127.0.0.1:5500/Interactive-Portfolio/index.html
 
 
 **🛠️ Built With**
@@ -51,5 +51,6 @@ Chrome • Firefox • Safari • Edge • Brave
 
 Tirth Joshi
 Aspiring Software Developer | Problem Solver | Tech Enthusiast
+
 
 
