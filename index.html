@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">COSMIC ✦</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="stars"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="word">Creative</span>
+                <span class="word">Developer</span>
+            </h1>
+            <p class="hero-subtitle">Building amazing digital experiences with code</p>
+            <button class="cta-button" onclick="scrollToSection('projects')">Explore My Work</button>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" onclick="openModal(0)">
+                <div class="project-image gradient-1">
+                    <i class="icon">🚀</i>
+                </div>
+                <h3>Space Explorer</h3>
+                <p>Interactive space exploration platform with real-time data visualization</p>
+                <span class="tech-tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Canvas API</span>
+                </span>
+            </div>
+
+            <div class="project-card" onclick="openModal(1)">
+                <div class="project-image gradient-2">
+                    <i class="icon">🎵</i>
+                </div>
+                <h3>Music Mixer</h3>
+                <p>Professional audio mixing interface with real-time waveform display</p>
+                <span class="tech-tags">
+                    <span class="tag">Web Audio API</span>
+                    <span class="tag">React</span>
+                </span>
+            </div>
+
+            <div class="project-card" onclick="openModal(2)">
+                <div class="project-image gradient-3">
+                    <i class="icon">🎨</i>
+                </div>
+                <h3>Design System</h3>
+                <p>Comprehensive component library with beautiful animations and interactions</p>
+                <span class="tech-tags">
+                    <span class="tag">CSS</span>
+                    <span class="tag">HTML5</span>
+                </span>
+            </div>
+
+            <div class="project-card" onclick="openModal(3)">
+                <div class="project-image gradient-4">
+                    <i class="icon">🎮</i>
+                </div>
+                <h3>Game Platform</h3>
+                <p>Multiplayer gaming platform with smooth animations and real-time updates</p>
+                <span class="tech-tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">WebSocket</span>
+                </span>
+            </div>
+
+            <div class="project-card" onclick="openModal(4)">
+                <div class="project-image gradient-5">
+                    <i class="icon">💼</i>
+                </div>
+                <h3>E-Commerce Hub</h3>
+                <p>Full-featured online store with payment integration and inventory management</p>
+                <span class="tech-tags">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">MongoDB</span>
+                </span>
+            </div>
+
+            <div class="project-card" onclick="openModal(5)">
+                <div class="project-image gradient-6">
+                    <i class="icon">📊</i>
+                </div>
+                <h3>Analytics Dashboard</h3>
+                <p>Real-time data analytics with interactive charts and insights visualization</p>
+                <span class="tech-tags">
+                    <span class="tag">Chart.js</span>
+                    <span class="tag">Vue.js</span>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <span class="skill-name">HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress skill-95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress skill-90"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress skill-88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Database</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress skill-82"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools & More</h3>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <span class="skill-name">Github</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress skill-92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Problem Solving</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress skill-96"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <span class="icon-large">📧</span>
+                    <p><a href="mailto:joshitirth2310@gmail.com" class="email-link">joshitirth2310@gmail.com</a></p>
+                </div>
+                <div class="info-item">
+                    <span class="icon-large">📍</span>
+                    <p>Vadodara Gujarat, India</p>
+                </div>
+                <div class="info-item">
+                    <span class="icon-large">🔗</span>
+                    <div class="social-links">
+                        <a href="https://github.com/Tirth-67" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://www.linkedin.com/in/tirth-joshi-ab0537308/" target="_blank" rel="noopener">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+            <div class="modal-tags" id="modalTags"></div>
+            <button class="modal-button" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Creative Developer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
