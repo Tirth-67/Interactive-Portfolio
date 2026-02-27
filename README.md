@@ -1,56 +1,66 @@
-**🚀 Creative Developer Portfolio**
+# 🚀 Creative Developer Portfolio
 
-A modern, responsive portfolio website designed to showcase my projects, technical skills, and achievements with smooth animations and interactive UI elements.
+A modern, interactive portfolio website showcasing projects and skills with stunning animations and smooth interactions.
 
+## ✨ Features
 
-**✨ Features**
+- Modern dark theme with gradient accents
+- Fully responsive design (desktop, tablet, mobile)
+- Interactive project cards with modal details
+- Animated skill progress bars
+- Smooth scroll navigation
+- Contact form with email integration
+- Mobile-friendly hamburger menu
 
-🌙 Modern dark theme with gradient accents
-📱 Fully responsive design (Desktop, Tablet, Mobile)
-🗂️ Interactive project cards with modal popups
-📊 Animated skill progress bars
-🔄 Smooth scrolling navigation
-📬 Contact form with email integration
-🍔 Mobile-friendly hamburger menu
+## 📁 Files
 
+- `index.html` - Main HTML structure
+- `style.css` - Styling and animations
+- `script.js` - Interactive functionality
+- `README.md` - Documentation
 
-**📁 Project Structure**
+## 🚀 How to Run
 
-📦 Creative-Developer-Portfolio
- ┣ 📜 index.html     → Main structure
- ┣ 📜 style.css      → Styling & animations
- ┣ 📜 script.js      → Interactivity & dynamic content
- ┗ 📜 README.md      → Documentation
+1. Navigate to the project folder
+2. Start a local server:
+   ```bash
+   python -m http.server 8000
+   ```
+3. Open in browser: `http://localhost:8000`
 
- 
-**🚀 Run Locally**
+## 🛠️ Technologies
 
-You can directly open index.html in your browser
+- HTML5
+- CSS3 (Gradients, Animations)
+- JavaScript (ES6+)
 
-OR start a local server:
-python -m http.server 8080
+## 📝 Customization
 
-Then open:
-👉 http://127.0.0.1:5500/Interactive-Portfolio/index.html
+### Update Your Info
+Edit these sections in `index.html`:
+- Contact email (line 213)
+- Location (line 219)
+- Social links (line 220-221)
 
+### Change Colors
+Edit CSS variables in `style.css` (lines 7-13):
+```css
+--primary-color: #667eea;
+--secondary-color: #764ba2;
+--accent-color: #00f2fe;
+```
 
-**🛠️ Built With**
+### Add Projects
+Edit `projectsData` array in `script.js` (line 1)
 
-HTML
-CSS
-JavaScript
+## 🌐 Browser Support
 
+Chrome, Firefox, Safari, Edge (latest versions)
 
-**🌐 Browser Compatibility**
+## 📄 License
 
-Fully supported on latest versions of:
-Chrome • Firefox • Safari • Edge • Brave
+Open source - Feel free to use and modify
 
+---
 
-**👨‍💻 Author**
-
-Tirth Joshi
-Aspiring Software Developer | Problem Solver | Tech Enthusiast
-
-
-
+**Created with ❤️ by Tirth Joshi**
